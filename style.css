@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 15vh;
+  background-color: #4b93bf;
+  color: aliceblue;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+header p {
+  font-size: 35px;
+  color: white;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+.floresta p {
+  width: 50%;
+}
+.floresta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+}
+.gramado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #4b93bf;
+  color: white;
+}
+.ursinhos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.redesociais {
+  display: flex;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b93bf;
+  color: white;
+}
+ul {
+  text-align: center;
+}
